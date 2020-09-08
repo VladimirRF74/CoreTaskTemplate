@@ -15,6 +15,6 @@ public class Main {
         System.out.println(workWithDb.getAllUsers());
         workWithDb.cleanUsersTable();
         workWithDb.dropUsersTable();
-        Util.closeSession();
+        Util.close();
     }
 }
